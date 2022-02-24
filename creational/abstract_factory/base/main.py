@@ -50,7 +50,7 @@ class ConcreteFactory2(AbstractFactory):
 class AbstractProductA(ABC):
     """
     Each distinct product of a product family should have a base interface. All
-    variants of the product must implement this interface.
+    variants of the product must example this interface.
     """
 
     @abstractmethod
