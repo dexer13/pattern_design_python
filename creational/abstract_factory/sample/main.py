@@ -12,14 +12,14 @@ from products import (
 )
 
 """ 
-In this implementation example I'm going to use patter to generate or instantiate objects for a mario kart race.
+In this implementation sample I'm going to use patter to generate or instantiate objects for a mario kart race.
 - Problem
-When I'm playing mario kart this game have different objects depending seasons or important event holiday by example 
+When I'm playing mario kart this game have different objects depending seasons or important event holiday by sample 
 christmas. Each object doesn't have different script else different aspect visual. When I want to add an object to 
 scene I don't want select a specific object like summer object, I just only add an object 
 and internally it knows what aspect put according to the season or event currently.
 - Solution 
-In this case we have some family class by example summer is a family and christmas is an another family, so we need a 
+In this case we have some family class by sample summer is a family and christmas is an another family, so we need a 
 ABSTRACT FACTORY to create different family objects like a piranha plant, which for the summer family class this plant
 will have a sun glasses but the christmas family class it'll have a tape with ornaments.
 
