@@ -36,7 +36,7 @@ class Creator(ABC):
 
 
 """
-Concrete Creators override the factory method in order to change the resulting
+Concrete creators override the factory method in order to change the resulting
 product's type.
 """
 
